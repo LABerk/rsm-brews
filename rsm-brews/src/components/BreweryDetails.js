@@ -36,9 +36,8 @@ export const BreweryDetails = () => {
   }, [params.name, breweryName]);
 
   const breweryLatNum = Number(breweryLat);
-  console.log(breweryLatNum);
+
   const breweryLngNum = Number(breweryLng);
-  console.log(breweryLngNum);
 
   return (
     <div className="detailsContainer">
@@ -50,6 +49,9 @@ export const BreweryDetails = () => {
           state={breweryState}
           zip={breweryZip}
         />
+        <Link className="back" to="/">
+          Back to all Breweries
+        </Link>
       </div>
 
       <div className="map">
@@ -60,9 +62,6 @@ export const BreweryDetails = () => {
           text={breweryName}
         />
       </div>
-      <Link className="back" to="/">
-        Back to all Breweries
-      </Link>
     </div>
   );
 };
