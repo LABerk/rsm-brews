@@ -1,0 +1,122 @@
+{
+  "0": {
+    "brewery_type": "micro",
+    "city": "Milwaukee",
+    "id": "1840-brewing-company-milwaukee",
+    "latitude": "43.00436242",
+    "longitude": "-87.90606942",
+    "name": "1840 Brewing Company",
+    "postal_code": "53207-1348",
+    "state": "Wisconsin",
+    "street": "342 E Ward St",
+    "website_url": "http://www.1840brewing.com"
+  },
+  "1": {
+    "brewery_type": "micro",
+    "city": "Milwaukee",
+    "id": "big-head-brewing-co-milwaukee",
+    "latitude": "43.0429687",
+    "longitude": "-87.9201437",
+    "name": "Big Head Brewing Co.",
+    "postal_code": "53213-2906",
+    "state": "Wisconsin",
+    "street": "6204 W State St",
+    "website_url": "http://www.bigheadbrewingco.com"
+  },
+  "2": {
+    "brewery_type": "micro",
+    "city": "Milwaukee",
+    "id": "black-husky-brewing-llc-milwaukee",
+    "latitude": "43.071024",
+    "longitude": "-87.90008457",
+    "name": "Black Husky Brewing LLC",
+    "postal_code": "53212",
+    "state": "Wisconsin",
+    "street": "909 E Locust St",
+    "website_url": "http://www.blackhuskybrewing.com"
+  },
+  "3": {
+    "brewery_type": "contract",
+    "city": "Milwaukee",
+    "id": "buffalo-water-beer-co-milwaukee",
+    "latitude": "43.0341323",
+    "longitude": "-87.9092089",
+    "name": "Buffalo Water Beer Co",
+    "postal_code": "53202-5710",
+    "state": "Wisconsin",
+    "street": "309 N Water St, #315",
+    "website_url": "http://www.buffalowaterbeer.com"
+  },
+  "4": {
+    "brewery_type": "micro",
+    "city": "Milwaukee",
+    "id": "city-lights-brewing-co-milwaukee",
+    "latitude": "43.0339815",
+    "longitude": "-88.0118646",
+    "name": "City Lights Brewing Co.",
+    "postal_code": "53233-2672",
+    "state": "Wisconsin",
+    "street": "2200 W Mount Vernon Ave",
+    "website_url": "http://www.citylightsbrewing.com"
+  },
+  "5": {
+    "brewery_type": "brewpub",
+    "city": "Milwaukee",
+    "id": "company-brewing-co-milwaukee",
+    "latitude": "43.0672919",
+    "longitude": "-87.90182086",
+    "name": "Company Brewing Co",
+    "postal_code": "53212-2944",
+    "state": "Wisconsin",
+    "street": "735 E Center St",
+    "website_url": null
+  },
+  "6": {
+    "brewery_type": "brewpub",
+    "city": "Milwaukee",
+    "id": "district-14-brewery-and-pub-milwaukee",
+    "latitude": "42.9581912",
+    "longitude": "-87.9095587",
+    "name": "District 14 Brewery & Pub",
+    "postal_code": "53207-1325",
+    "state": "Wisconsin",
+    "street": "2273 S Howell Ave",
+    "website_url": null
+  },
+  "7": {
+    "brewery_type": "brewpub",
+    "city": "Milwaukee",
+    "id": "eagle-park-brewing-company-milwaukee",
+    "latitude": "43.0542106",
+    "longitude": "-87.90143961",
+    "name": "Eagle Park Brewing Company",
+    "postal_code": "53202",
+    "state": "Wisconsin",
+    "street": "823 E Hamilton St",
+    "website_url": "http://www.eagleparkbrewing.com"
+  },
+  "8": {
+    "brewery_type": "micro",
+    "city": "Milwaukee",
+    "id": "gathering-place-brewing-company-milwaukee",
+    "latitude": "43.0857359",
+    "longitude": "-87.90107445",
+    "name": "Gathering Place Brewing Company",
+    "postal_code": "53212-1775",
+    "state": "Wisconsin",
+    "street": "811 E Vienna Ave",
+    "website_url": "http://www.gatheringplacebrewing.com"
+  },
+  "9": {
+    "brewery_type": "regional",
+    "city": "Milwaukee",
+    "id": "lakefront-brewery-inc-milwaukee",
+    "latitude": "43.0547874",
+    "longitude": "-87.9051723",
+    "name": "Lakefront Brewery Inc",
+    "postal_code": "53212-3701",
+    "state": "Wisconsin",
+    "street": "1872 N Commerce St",
+    "website_url": "http://www.lakefrontbrewery.com"
+  }
+}
