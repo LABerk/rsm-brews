@@ -1,7 +1,7 @@
-const breweryRoutes = require("./breweryRoutes");
+const allBreweriesRoute = require("./breweryRoutes");
 
 const appRouter = (app, fs) => {
-  breweryRoutes(app, fs);
+  allBreweriesRoute(app, fs);
 };
 
 module.exports = appRouter;

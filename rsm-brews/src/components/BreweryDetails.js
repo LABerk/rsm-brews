@@ -17,18 +17,16 @@ export const BreweryDetails = () => {
   useEffect(() => {
     const fetchBrewery = async () => {
       try {
-        const queryName = await params.name.replaceAll(" ", "_");
-        const response = await fetch(
-          `https://api.openbrewerydb.org/breweries?by_name=${queryName}&per_page=1`
-        );
+        // FOR OPENBREWERYDB API const queryName = await params.name.replaceAll(" ", "_");
+        const response = await fetch(`/breweries/${params.name}`);
         const json = await response.json();
-        setBreweryName(json[0].name);
-        setBrewerySt(json[0].street);
-        setBreweryCity(json[0].city);
-        setBreweryState(json[0].state);
-        setBreweryZip(json[0].postal_code);
-        setBreweryLat(json[0].latitude);
-        setBreweryLng(json[0].longitude);
+        setBreweryName(json.name);
+        setBrewerySt(json.street);
+        setBreweryCity(json.city);
+        setBreweryState(json.state);
+        setBreweryZip(json.postal_code);
+        setBreweryLat(json.latitude);
+        setBreweryLng(json.longitude);
       } catch (err) {
         console.log("There was a problem fetching brewery data", err);
       }
