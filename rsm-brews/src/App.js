@@ -8,13 +8,30 @@ import "./App.scss";
 function App() {
   const [breweries, setBreweries] = useState(null);
 
+  // useEffect(() => {
+  //   const apiUrl =
+  //     "https://api.openbrewerydb.org/breweries?by_city=milwaukee&per_page=30";
+  //   const fetchBreweries = async () => {
+  //     try {
+  //       const response = await fetch(apiUrl);
+  //       const json = await response.json();
+  //       console.log(json);
+  //       setBreweries(json);
+  //     } catch (err) {
+  //       console.log("There was an error", err);
+  //     }
+  //   };
+
+  //   fetchBreweries();
+  // }, []);
+
   useEffect(() => {
-    const apiUrl =
-      "https://api.openbrewerydb.org/breweries?by_city=milwaukee&per_page=30";
     const fetchBreweries = async () => {
       try {
-        const response = await fetch(apiUrl);
+        const response = await fetch("/breweries");
+        console.log(response);
         const json = await response.json();
+
         console.log(json);
         setBreweries(json);
       } catch (err) {

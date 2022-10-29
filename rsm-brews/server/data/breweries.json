@@ -1,5 +1,5 @@
-{
-  "0": {
+[
+  {
     "brewery_type": "micro",
     "city": "Milwaukee",
     "id": "1840-brewing-company-milwaukee",
@@ -11,7 +11,7 @@
     "street": "342 E Ward St",
     "website_url": "http://www.1840brewing.com"
   },
-  "1": {
+  {
     "brewery_type": "micro",
     "city": "Milwaukee",
     "id": "big-head-brewing-co-milwaukee",
@@ -23,7 +23,7 @@
     "street": "6204 W State St",
     "website_url": "http://www.bigheadbrewingco.com"
   },
-  "2": {
+  {
     "brewery_type": "micro",
     "city": "Milwaukee",
     "id": "black-husky-brewing-llc-milwaukee",
@@ -35,7 +35,7 @@
     "street": "909 E Locust St",
     "website_url": "http://www.blackhuskybrewing.com"
   },
-  "3": {
+  {
     "brewery_type": "contract",
     "city": "Milwaukee",
     "id": "buffalo-water-beer-co-milwaukee",
@@ -47,7 +47,7 @@
     "street": "309 N Water St, #315",
     "website_url": "http://www.buffalowaterbeer.com"
   },
-  "4": {
+  {
     "brewery_type": "micro",
     "city": "Milwaukee",
     "id": "city-lights-brewing-co-milwaukee",
@@ -59,7 +59,7 @@
     "street": "2200 W Mount Vernon Ave",
     "website_url": "http://www.citylightsbrewing.com"
   },
-  "5": {
+  {
     "brewery_type": "brewpub",
     "city": "Milwaukee",
     "id": "company-brewing-co-milwaukee",
@@ -71,7 +71,7 @@
     "street": "735 E Center St",
     "website_url": null
   },
-  "6": {
+  {
     "brewery_type": "brewpub",
     "city": "Milwaukee",
     "id": "district-14-brewery-and-pub-milwaukee",
@@ -83,7 +83,7 @@
     "street": "2273 S Howell Ave",
     "website_url": null
   },
-  "7": {
+  {
     "brewery_type": "brewpub",
     "city": "Milwaukee",
     "id": "eagle-park-brewing-company-milwaukee",
@@ -95,7 +95,7 @@
     "street": "823 E Hamilton St",
     "website_url": "http://www.eagleparkbrewing.com"
   },
-  "8": {
+  {
     "brewery_type": "micro",
     "city": "Milwaukee",
     "id": "gathering-place-brewing-company-milwaukee",
@@ -107,7 +107,7 @@
     "street": "811 E Vienna Ave",
     "website_url": "http://www.gatheringplacebrewing.com"
   },
-  "9": {
+  {
     "brewery_type": "regional",
     "city": "Milwaukee",
     "id": "lakefront-brewery-inc-milwaukee",
@@ -119,4 +119,4 @@
     "street": "1872 N Commerce St",
     "website_url": "http://www.lakefrontbrewery.com"
   }
-}
+]

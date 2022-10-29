@@ -1,7 +1,7 @@
 const breweryRoutes = (app, fs) => {
   const mockData = "./data/breweries.json";
 
-  app.get("/", (req, res) => {
+  app.get("/breweries", (req, res) => {
     fs.readFile(mockData, "utf8", (err, data) => {
       if (err) {
         throw err;
